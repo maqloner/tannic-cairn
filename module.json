@@ -1,0 +1,73 @@
+{
+    "name": "tannic-cairn",
+    "title": "Tannic by Amanda P. for Cairn",
+    "description": "Tannic by Amanda P. for Cairn",
+    "author": "Loner",
+    "version": "This is auto replaced",
+    "library": "false",
+    "manifestPlusVersion": "1.0.0",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "9",    
+    "esmodules": [
+        "./module/module.js"
+    ],
+    "styles": [
+        "./styles/hexcrawl-dashboard.css"
+    ],
+    "dependencies": [
+        {
+            "name": "cairn",
+            "type": "system"
+        },
+        {
+            "name": "fxmaster"
+        }
+    ],
+    "packs": [
+        {
+            "name": "tables-tannic-cairn",
+            "label": "Tables - Tannic - Cairn",
+            "path": "./packs/tables-tannic-cairn.db",
+            "entity": "RollTable",
+            "system": "cairn"
+        },
+        {
+            "name": "macros-tannic-cairn",
+            "label": "Macros - Tannic - Cairn",
+            "path": "./packs/macros-tannic-cairn.db",
+            "entity": "Macro",
+            "system": "cairn"
+        },
+        {
+            "name": "scenes-tannic-cairn",
+            "label": "Scenes - Tannic - Cairn",
+            "path": "./packs/scenes-tannic-cairn.db",
+            "entity": "Scene",
+            "system": "cairn"
+        },
+        {
+            "name": "journal-tannic-cairn",
+            "label": "Journal - Tannic - Cairn",
+            "path": "./packs/journals-tannic-cairn.db",
+            "entity": "JournalEntry",
+            "system": "cairn"
+        },
+        {
+            "name": "actors-tannic-cairn",
+            "label": "Actors - Tannic - Cairn",
+            "path": "./packs/actors-tannic-cairn.db",
+            "entity": "Actor",
+            "system": "cairn"
+        },
+        {
+            "name": "items-tannic-cairn",
+            "label": "Items - Tannic - Cairn",
+            "path": "./packs/items-tannic-cairn.db",
+            "entity": "Item",
+            "system": "cairn"
+        }
+    ],
+    "url": "This is auto replaced",
+    "manifest": "This is auto replaced",
+    "download": "This is auto replaced"
+}

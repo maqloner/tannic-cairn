@@ -1,0 +1,51 @@
+.hexcrawl-dashboard {
+  z-index: 99;
+  top: 64px;
+  left: 168px;
+  position: fixed;
+  height: auto;
+  width: auto;
+  background: none;
+  font-size: small;
+  color: white;
+  z-index: calc(var(--z-index-app) - 1);
+  width: calc(90% - var(--sidebar-width));
+}
+
+.hexcrawl-dashboard ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  max-width: 80%;
+  flex-wrap: wrap;
+}
+
+.hexcrawl-dashboard li {
+  display: flex;
+  background: rgba(39, 39, 39, 0.95);
+  border: 1px solid #252525;
+  cursor: pointer;
+  padding: 8px 8px;
+  margin: 0 8px 8px 0;
+  border-radius: 3px;
+  align-items: center;
+}
+
+.hexcrawl-dashboard li {
+  padding: 8px 8px 8px 8px;
+}
+
+.hexcrawl-dashboard li:hover {
+  text-shadow: 0 0 8px var(--color-shadow-primary);
+}
+
+.hexcrawl-dashboard li span {
+  margin-left: 4px;
+}
+
+.hexcrawl-dashboard li img {
+  width: 16px;
+  height: 16px;
+  border: none;
+}

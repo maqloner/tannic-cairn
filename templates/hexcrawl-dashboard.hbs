@@ -1,0 +1,14 @@
+<div id="{{id}}" class="{{class}}">
+    <ul>
+        {{#each actions}}
+            <li id="{{id}}" class='action'>
+                {{#if icon}}
+                    <img src="{{icon}}">
+                {{/if}}
+                {{#if label}}
+                    <span>{{label}}</span>
+                {{/if}}
+            </li>
+        {{/each}}
+    </ul>
+</div>
