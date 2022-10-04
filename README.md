@@ -1,6 +1,6 @@
 # Tannic by Amanda P. for Cairn
 
-![Latest Release Download Count](https://img.shields.io/github/downloads/maqloner/tannic-cairn/latest/module.zip)
+![Latest Release Download Count](https://img.shields.io/github/downloads/maqloner/tannic-cairn/total)
 
 _Adventure used with permission of Amanda P._
 
