@@ -1,5 +1,7 @@
 # Tannic by Amanda P. for Cairn
 
+![Latest Release Download Count](https://img.shields.io/github/downloads/maqloner/tannic-cairn/latest/system.zip)
+
 _Adventure used with permission of Amanda P._
 
 https://weirdwonder.itch.io/tannic
