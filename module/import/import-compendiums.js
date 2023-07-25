@@ -3,7 +3,7 @@ import configurePermissions from './configure-permissions.js';
 import repairSceneNotes from './repair-scene-notes.js';
 import repairSceneTokens from './repair-scene-tokens.js';
 
-const findFolder = async document => game.folders.find(folder => folder.data.type === document.documentName && folder.name === document.compendium.title);
+const findFolder = async document => game.folders.find(folder => folder.type === document.documentName && folder.name === document.compendium.title);
 
 const createFolder = async document => (await Folder.create({ name: document.compendium.title, type: document.documentName }));
 

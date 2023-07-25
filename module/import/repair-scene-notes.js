@@ -2,12 +2,12 @@ import { getCurrentModule } from '../config.js';
 
 const findWorldJournal = name => game.journal.getName(name);
 
-const canRepairNote = note => !!note.data.flags[getCurrentModule()] && findWorldJournal(note.data.flags[getCurrentModule()].journalEntry);
+const canRepairNote = note => !!note.flags[getCurrentModule()] && findWorldJournal(note.flags[getCurrentModule()].journalEntry);
 
-const repairNote = async note => await note.update({ entryId: findWorldJournal(note.data.flags[getCurrentModule()].journalEntry).id });
+const repairNote = async note => await note.update({ entryId: findWorldJournal(note.flags[getCurrentModule()].journalEntry).id });
 
 const repairScene = async scene => {
-    for (let note of scene.data.notes.filter(note => canRepairNote(note))) {
+    for (let note of scene.notes.filter(note => canRepairNote(note))) {
         await repairNote(note);
     }
 };

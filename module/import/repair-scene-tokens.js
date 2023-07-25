@@ -5,7 +5,7 @@ const canRepairToken = token => !!!token.actor && !!game.actors.getName(token.na
 const repairToken = async token => await token.update({ actorId: findWorldActor(token.name).id });
 
 const repairScene = async scene => {
-    for (let token of scene.data.tokens.filter(token => canRepairToken(token))) {
+    for (let token of scene.tokens.filter(token => canRepairToken(token))) {
         await repairToken(token);
     }
 };

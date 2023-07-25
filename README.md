@@ -1,5 +1,7 @@
 # Tannic by Amanda P. for Cairn
 
+![Latest Release Download Count](https://img.shields.io/github/downloads/maqloner/tannic-cairn/latest/total) ![Total Download Count](https://img.shields.io/github/downloads/maqloner/tannic-cairn/total)
+
 _Adventure used with permission of Amanda P._
 
 https://weirdwonder.itch.io/tannic
@@ -16,10 +18,13 @@ Tannic is a love letter to the pine barrens, youthful adventures, and campfire s
 - Journal images: [Midjourney](https://www.midjourney.com/)
 
 ## FoundryVTT integration
-### Installation
-1. In the FoundryVTT Add-ons Module Menu, click Install Module
-2. Enter the Manifest URL: https://github.com/maqloner/tannic-cairn/releases/latest/download/module.json 
-3. Click Install
+## Installation - Manual - Foundry V10+
+1. In the Game Systems Tab, click `Install System`
+2. Enter the Manifest URL: `https://github.com/maqloner/tannic-cairn/releases/latest/download/module.json`
+
+## Installation - Manual - Foundry V9
+1. In the Game Systems Tab, click `Install System`
+2. Enter the Manifest URL: `https://github.com/maqloner/tannic-cairn/releases/download/1.0.1/module.json`
 
 ### Notes
 - Enabling the module should import all the necessary compendiums.
