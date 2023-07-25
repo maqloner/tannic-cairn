@@ -19,11 +19,11 @@ Tannic is a love letter to the pine barrens, youthful adventures, and campfire s
 
 ## FoundryVTT integration
 ## Installation - Manual - Foundry V10+
-1. In the Game Systems Tab, click `Install System`
+1. In the Add-on Modules Tab, click `Install Module`
 2. Enter the Manifest URL: `https://github.com/maqloner/tannic-cairn/releases/latest/download/module.json`
 
 ## Installation - Manual - Foundry V9
-1. In the Game Systems Tab, click `Install System`
+1. In the Add-on Modules Tab, click `Install Module`
 2. Enter the Manifest URL: `https://github.com/maqloner/tannic-cairn/releases/download/1.0.1/module.json`
 
 ### Notes
